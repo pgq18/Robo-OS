@@ -1,0 +1,29 @@
+model:
+  Planner:
+    # MODEL_NAME: "qwen3-32b"                             # Model name for the cloud server
+    MODEL_NAME: "qwen-plus"                             # Model name for the cloud server
+    MODEL_RETRY_PLANNING: 5                               # Number of retries for planning
+    CLOUD_API_KEY: ""                     # API key for the cloud server
+    CLOUD_SERVER: "https://dashscope.aliyuncs.com/compatible-mode/v1"             # URL of the cloud server
+    MAX_CHAT_MESSAGE: 50                              # Maximum number of chat messages to keep in memory
+
+  Supervisor:
+    # MODEL_NAME: "qwen3-32b"                             # Model name for the cloud server
+    MODEL_NAME: "qwen-plus"                             # Model name for the cloud server
+    MODEL_RETRY_PLANNING: 5                               # Number of retries for planning
+    CLOUD_API_KEY: ""                     # API key for the cloud server
+    CLOUD_SERVER: "https://dashscope.aliyuncs.com/compatible-mode/v1"             # URL of the cloud server
+    MAX_CHAT_MESSAGE: 50                              # Maximum number of chat messages to keep in memory
+
+redis:
+  HOST: "127.0.0.1"                                     # Hostname or IP address of the server
+  PORT: 5555                                            # Port number of the server
+  DB: 0                                                 # database number
+  CLEAR: true                                           # Whether clear the database on startup
+  PASSWORD: ""                                          # Password for server
+
+milvus:
+  BASE_URL: "http://127.0.0.1:5002"
+
+path:
+  BASE: "/home/pengguanqi/test"

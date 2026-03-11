@@ -1,0 +1,43 @@
+scene:
+
+  - recep_name: "Exit Bay A"
+    location: [633, 63]
+    recep_type: "area"
+    recep_object: []
+
+  - recep_name: "Dock1"
+    location: [169, 213]
+    recep_type: "area"
+    recep_object: []
+
+  - recep_name: "Dock2"
+    location: [979, 430]
+    recep_type: "area"
+    recep_object: []
+
+  - recep_name: "Exit Bay B"
+    location: [622, 740]
+    recep_type: "area"
+    recep_object: []
+  
+  # - recep_name: "customTable"
+  #   location: [0, 0]
+  #   recep_type: "table"
+  #   recep_object:
+  #     - 'basket'
+  #     - 'plate'
+  #     - 'cup'{"509门口": {"x": -6.50, "y": 0.42, "yaw": 0.24}}
+  
+  # - recep_name: "servingTable"
+  #   location: [0, 0]
+  #   recep_type: "table"
+  #   recep_object:
+  #     - 'bowl'
+  #     - 'fork'
+  #     - 'spoon'
+  
+  # - recep_name: "basket"
+  #   location: [0, 0]
+  #   recep_type: "container"
+  #   recep_object:
+  #     - 'egg'

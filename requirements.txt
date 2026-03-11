@@ -1,0 +1,9 @@
+pygame
+openai
+qwen-agent
+redis
+pymilvus
+pymilvus[model]
+pymilvus[milvus_lite]
+flask
+pyyaml

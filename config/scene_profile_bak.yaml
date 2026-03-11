@@ -1,0 +1,40 @@
+scene:
+
+  - recep_name: "Loading Area"
+    location: [0, 0]
+    recep_type: "area"
+    recep_object:
+      - 'Cargo 1'
+    # recep_object: []
+
+  - recep_name: "Parking Area"
+    location: [0, 0]
+    recep_type: "area"
+    recep_object: []
+
+  - recep_name: "Unloading Area"
+    location: [0, 0]
+    recep_type: "area"
+    recep_object: []
+  
+  # - recep_name: "customTable"
+  #   location: [0, 0]
+  #   recep_type: "table"
+  #   recep_object:
+  #     - 'basket'
+  #     - 'plate'
+  #     - 'cup'
+  
+  # - recep_name: "servingTable"
+  #   location: [0, 0]
+  #   recep_type: "table"
+  #   recep_object:
+  #     - 'bowl'
+  #     - 'fork'
+  #     - 'spoon'
+  
+  # - recep_name: "basket"
+  #   location: [0, 0]
+  #   recep_type: "container"
+  #   recep_object:
+  #     - 'egg'

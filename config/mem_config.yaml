@@ -1,0 +1,7 @@
+# Communicator Parameters
+redis-server:
+  HOST: "127.0.0.1"                                     # Hostname or IP address of the server
+  PORT: 5555                                            # Port number of the server
+  DB: 0                                                 # database number
+  CLEAR: true                                           # Whether clear the database on startup
+  PASSWORD: ""                                          # Password for server

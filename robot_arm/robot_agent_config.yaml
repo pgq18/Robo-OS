@@ -1,0 +1,23 @@
+model:
+  MODEL_NAME: "qwen3-235b-a22b-instruct-2507" #qwen3-14b #qwen3-1.7b #"qwen3-235b-a22b-instruct-2507"                             # Model name for the cloud server # TODO： try smaller model
+  MODEL_RETRY_PLANNING: 5                               # Number of retries for planning
+  CLOUD_API_KEY: ""                     # API key for the cloud server
+  CLOUD_SERVER: "https://dashscope.aliyuncs.com/compatible-mode/v1"             # URL of the cloud server
+  MAX_CHAT_MESSAGE: 50                              # Maximum number of chat messages to keep in memory
+
+redis:
+  HOST: "127.0.0.1"                                     # Hostname or IP address of the server
+  PORT: 5555                                            # Port number of the server
+  DB: 0                                                 # database number
+  CLEAR: true                                           # Whether clear the database on startup
+  PASSWORD: ""                                          # Password for server
+
+robot:
+  - robot_type: " is a robot arm. It can only pick up objects and place them somewhere in the Loading Area." # TODO: concluded by LLMs
+    robot_state: "idle"
+    robot_tool:
+      - "load_object: load the object around the robot arm to a mobile robot nearby"
+    current_position: ""
+    navigate_position:
+      - ""
+    carrying_objects: []
